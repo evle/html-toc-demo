@@ -1,0 +1,86 @@
+article{
+    width: 60%;   
+    float: left; 
+}
+/* 
+.indent-H3:before{
+    content:"\00a0\00a0";
+} */
+ 
+.indent-H3{
+   text-indent: 1em;
+}
+
+.indent-H4{
+    text-indent: 2em;
+}
+
+.indent-H5{
+    text-indent:3em;
+}
+
+.toc a{
+    display:inline-block;
+}
+/* }
+.indent-H4{
+    
+} */
+
+footer{
+    background-color: aquamarine;
+    height: 6em;
+    clear: left;
+}
+
+#before-footer{
+    height: 20em;
+    border: solid 1em firebrick;
+    clear: left;
+}
+
+.toc{
+    /* float: left; */
+    right: 8em;
+    width:25em;
+    /* padding: 20 */
+    position: fixed;
+    border: solid 1px darkcyan;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 0.4em;
+}
+
+a:link,a:visited{
+    text-decoration:none;  
+   }
+
+   a:link {color: #696969}              
+   a:visited {color: #696969}            
+  
+   a:hover {
+        color: blue;
+    text-decoration:underline    
+}           
+
+
+.active{
+    color: blue;
+    /* border-left-width: 0.2em; */
+    border-style: solid;
+    border-color: #ff0000 #0000ff;
+}
+
+header{
+    height: 5em;
+    background-color: aquamarine;
+}
+
+
+/* 
+p 用&ensp;户&ensp;名
+p 密&emsp;&emsp;码
+p 身份证号 */
+
